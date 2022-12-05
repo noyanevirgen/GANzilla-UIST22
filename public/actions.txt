@@ -1,0 +1,143 @@
+1658444162.3361828,get_image,0
+1658444162.351722,highlighter_open
+1658444171.096176,get_image,0
+1658444171.1207426,highlighter_open
+1658444173.2080548,get_image,1
+1658444174.5502784,get_image,2
+1658444175.2396605,get_image,3
+1658444175.8020546,get_image,4
+1658444176.3598497,get_image,5
+1658444178.65117,selector_open
+1658444191.7164047,update_x_select_image,2
+1658444191.8584547,ganzilla_open
+1658444214.6150558,['cex_clicked', 7]
+1658444214.6161277,test_area,ganzilla_images/raw_images/2_0/0/0/9.png
+1658444244.4761055,ganzilla_open
+1658444264.4764488,selector_open
+1658444270.8582926,get_image,0
+1658444270.8710897,highlighter_open
+1658444272.1748776,get_image,0
+1658444272.193107,highlighter_open
+1658444276.9796019,get_image,1
+1658444280.0181868,get_image,2
+1658444283.9149425,get_image,3
+1658444288.8132288,get_image,4
+1658444294.187097,get_image,5
+1658444303.9029014,selector_open
+1658444305.3971543,update_x_select_image,2
+1658444305.5220196,ganzilla_open
+1658444325.3745236,number_cluster,10
+1658444327.8606296,['gather_c_clicked', 4]
+1658444333.7976544,['gather_c_clicked', 6]
+1658444335.9493196,scatter,[False, False, False, True, False, True, False, False, False, False]
+1658444356.4065976,['cex_clicked', 3]
+1658444356.4089804,test_area,ganzilla_images/raw_images/2_0/1/0/15.png
+1658444389.3666422,selector_open
+1658444394.6660511,get_image,0
+1658444394.684615,highlighter_open
+1658444396.8338215,get_image,0
+1658444396.8518639,highlighter_open
+1658444826.3594322,get_image,1
+1658444830.064805,get_image,2
+1658444833.9781282,get_image,3
+1658444837.7892165,get_image,4
+1658444843.3574636,get_image,5
+1658444849.3929057,selector_open
+1658444855.1656055,update_x_select_image,2
+1658444855.303256,ganzilla_open
+1658444878.7846577,number_cluster,7
+1658444881.3081553,['gather_c_clicked', 7]
+1658444884.4439898,['gather_c_clicked', 3]
+1658444902.2916627,['gather_c_clicked', 7]
+1658444905.855357,['gather_c_clicked', 3]
+1658444906.2007458,['gather_c_clicked', 7]
+1658444907.5248978,['gather_c_clicked', 7]
+1658444908.3606079,['gather_c_clicked', 6]
+1658444913.8816588,['gather_c_clicked', 6]
+1658445028.64605,['gather_c_clicked', 1]
+1658445033.4035597,['gather_c_clicked', 1]
+1658445035.6804166,['gather_c_clicked', 1]
+1658445041.6133935,['gather_c_clicked', 1]
+1658445042.4042084,['gather_c_clicked', 6]
+1658445045.757471,['gather_c_clicked', 6]
+1658445047.8515022,['gather_c_clicked', 3]
+1658445051.9855466,['gather_c_clicked', 3]
+1658445052.3399558,['gather_c_clicked', 7]
+1658445093.2785113,['gather_c_clicked', 7]
+1658445101.4778368,['gather_c_clicked', 6]
+1658445109.2844636,['gather_c_clicked', 3]
+1658445112.3800435,['gather_c_clicked', 6]
+1658445114.7318773,['gather_c_clicked', 6]
+1658445119.1063716,scatter,[False, False, True, False, False, True, False, False, False, False]
+1658445140.4405723,['cex_clicked', 25]
+1658445140.440619,test_area,ganzilla_images/raw_images/2_0/1/0/0.png
+1658445146.7027745,['cex_clicked', 26]
+1658445146.70504,test_area,ganzilla_images/raw_images/2_0/1/0/15.png
+1658445151.6572587,['cex_clicked', 26]
+1658445151.6589134,test_area,ganzilla_images/raw_images/2_0/1/0/15.png
+1658445158.9361544,change_strength,[7, 'ganzilla_images/raw_images/2_0/1/0/15.png', 1]
+1658445162.1549888,change_strength,[5, 'ganzilla_images/raw_images/2_0/1/0/15.png', 1]
+1658445166.5921156,change_strength,[2, 'ganzilla_images/raw_images/2_0/1/0/15.png', 1]
+1658445170.3538194,change_strength,[-5, 'ganzilla_images/raw_images/2_0/1/0/15.png', 1]
+1658445173.9367042,change_strength,[-3, 'ganzilla_images/raw_images/2_0/1/0/15.png', 1]
+1658445178.7603734,change_strength,[3, 'ganzilla_images/raw_images/2_0/1/0/15.png', 1]
+1658445181.4042332,change_strength,[-2, 'ganzilla_images/raw_images/2_0/1/0/15.png', 3]
+1658445184.5427556,change_strength,[-5, 'ganzilla_images/raw_images/2_0/1/0/15.png', 3]
+1658445188.0827122,change_strength,[6, 'ganzilla_images/raw_images/2_0/1/0/15.png', 3]
+1658445191.4797463,change_strength,[5, 'ganzilla_images/raw_images/2_0/1/0/15.png', 3]
+1658445193.5984948,save_direction,['ganzilla_images/initial_images/generated2.png', 'ganzilla_images/raw_images/2_0/1/0/testtarget0_15_5.png', 'ganzilla_images/raw_images/2_0/1/0/testref1_15_3.png', 'ganzilla_images/raw_images/2_0/1/0/testtarget1_15_3.png', 'ganzilla_images/raw_images/2_0/1/0/testref2_15_5.png', 'ganzilla_images/raw_images/2_0/1/0/testtarget2_15_5.png', 'ganzilla_images/raw_images/2_0/1/0/testref3_15_5.png', 'ganzilla_images/raw_images/2_0/1/0/testtarget3_15_5.png', 5, 3, 5, 5]
+1658445197.6957228,go_back,2,0,1,0
+1658445201.0428894,go_next,2,0,0,0
+1658445203.219093,go_back,2,0,1,0
+1658445207.0626051,number_cluster,10
+1658445209.9343574,['gather_c_clicked', 6]
+1658445210.790226,['gather_c_clicked', 6]
+1658445211.3286495,['gather_c_clicked', 5]
+1658445212.1116173,['gather_c_clicked', 5]
+1658445215.1757042,['gather_c_clicked', 9]
+1658445216.2188945,['gather_c_clicked', 9]
+1658445216.7168157,['gather_c_clicked', 3]
+1658445217.3673692,['gather_c_clicked', 3]
+1658445218.2572563,['gather_c_clicked', 4]
+1658445221.7063055,['gather_c_clicked', 10]
+1658445225.8123612,go_next,2,0,0,0
+1658445232.5514963,go_back,2,0,1,0
+1658445273.349708,go_next,2,0,0,0
+1658445289.5317702,selector_open
+1658445293.4323037,update_x_select_image,3
+1658445293.5540175,ganzilla_open
+1658445337.6864824,number_cluster,9
+1658445347.4107196,['gather_c_clicked', 8]
+1658445350.441819,['gather_c_clicked', 8]
+1658445350.971357,['gather_c_clicked', 2]
+1658445353.0870981,['gather_c_clicked', 2]
+1658445353.4717264,['gather_c_clicked', 5]
+1658445356.2951713,['gather_c_clicked', 5]
+1658445356.7733476,['gather_c_clicked', 6]
+1658445357.8661995,['gather_c_clicked', 6]
+1658445359.064362,['gather_c_clicked', 3]
+1658445364.3685172,['gather_c_clicked', 3]
+1658445364.741105,['gather_c_clicked', 3]
+1658445370.2812448,['gather_c_clicked', 9]
+1658445371.3334131,['gather_c_clicked', 3]
+1658445376.9511023,['gather_c_clicked', 9]
+1658445380.0504441,number_cluster,5
+1658445383.021946,['gather_c_clicked', 5]
+1658445383.6949265,['gather_c_clicked', 3]
+1658445385.9805982,['gather_c_clicked', 5]
+1658445386.5129569,['gather_c_clicked', 3]
+1658445387.4185464,number_cluster,10
+1658445391.1519675,['gather_c_clicked', 7]
+1658445512.184462,['gather_c_clicked', 6]
+1658445514.0781431,scatter,[False, False, False, False, False, True, True, False, False, False]
+1658445528.088675,['cex_clicked', 12]
+1658445528.0887198,test_area,ganzilla_images/raw_images/3_0/1/0/4.png
+1658445529.4510334,['cex_clicked', 23]
+1658445529.4510598,test_area,ganzilla_images/raw_images/3_0/1/0/26.png
+1658446109.9975138,['gather_c_clicked', 6]
+1658446110.6344652,['gather_c_clicked', 4]
+1658446140.7559247,['gather_c_clicked', 4]
+1658446143.6863956,['gather_c_clicked', 7]
+1658446144.9630628,scatter,[False, False, False, False, False, True, True, False, False, False]
+1658446166.3451793,['cex_clicked', 13]
+1658446166.346188,test_area,ganzilla_images/raw_images/3_0/2/0/8.png

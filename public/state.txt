@@ -1,0 +1,1 @@
+{"x": 3, "y": 0, "seed": [52, 867, 6547, 4423, 7854, 20161], "cluster": 10, "depth": 2, "breadth": 0, "examples": 30, "highlighted": 6, "subset_exp": 4, "layers": [4, 8, 16, 32, 64, 128, 256, 512, 1024], "threshold": [1, 1, 1, 1, 1, 1], "increase": [0.35, 0.4, 0.4, 0.4, 0.4, 0.4], "center_x": 250, "center_y": 250, "avg_dist": 300, "test_seed": [189, 8812, 1234567]}

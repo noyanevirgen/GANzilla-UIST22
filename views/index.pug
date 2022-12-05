@@ -1,0 +1,266 @@
+extends layout
+
+block content
+  //h1.Banner GANZilla
+  div.MasterContainer
+    div.LeftContainer 
+      div.Gallery
+        div.gallerytext Scatter/Gather Area
+        div.numberclustertext
+          |<label for="amount" style = "font-size: 30px; margin-top:20px">Number of Clusters:</label>
+          |<input type="text" id="amount" readonly style="border:0; font-weight:bold; font-size: 30px; width:30px; height:30px; margin-top:20px">
+        div.slidingcluster
+          |<script>
+          |$( function() {
+          |  $( "#slider-range-min" ).slider({
+          |    range: "min",
+          |    value: 6,
+          |    min: 5,
+          |    max: 10,
+          |    slide: function( event, ui ) {
+          |      $( "#amount" ).val( ui.value );
+          |    }
+          |  });
+          |  $( "#amount" ).val($( "#slider-range-min" ).slider( "value" ) );
+          |} );
+          |</script>
+          div#slider-range-min
+
+        div.restof
+          button.gallerybutton(type='button' class='btn btn-info btn-lg') Scatter
+          button.fakebutton(type='button' class='btn btn-info btn-lg') Get More Images
+          button.backbutton(type='button' class='btn btn-info btn-lg') &lt
+          button.nextbutton1(type='button' class='btn btn-info btn-lg') &gt
+          button.nextbutton2(type='button' class='btn btn-info btn-lg') &gt
+          button.nextbutton3(type='button' class='btn btn-info btn-lg') &gt
+          button.nextbutton4(type='button' class='btn btn-info btn-lg') &gt
+          button.nextbutton5(type='button' class='btn btn-info btn-lg') &gt
+        div.draggable
+
+          img.gather_c1(style='width:200px; height:200px;')
+          img.gather_c2(style='width:200px; height:200px;')
+          img.gather_c3(style='width:200px; height:200px;')
+          img.gather_c4(style='width:200px; height:200px;')
+          img.gather_c5(style='width:200px; height:200px;')
+          img.gather_c6(style='width:200px; height:200px;')
+          img.gather_c7(style='width:200px; height:200px;')
+          img.gather_c8(style='width:200px; height:200px;')
+          img.gather_c9(style='width:200px; height:200px;')
+          img.gather_c10(style='width:200px; height:200px;')
+          
+          //img.gather_c11(style='width:160px; height:160px;')
+          //img.gather_c12(style='width:160px; height:160px;')
+          //img.gather_c13(style='width:160px; height:160px;')
+          //img.gather_c14(style='width:160px; height:160px;')
+          //img.gather_c15(style='width:160px; height:160px;')
+          //img.gather_c16(style='width:160px; height:160px;')
+          //img.gather_c17(style='width:160px; height:160px;')
+          //img.gather_c18(style='width:160px; height:160px;')
+          //img.gather_c19(style='width:160px; height:160px;')
+          //img.gather_c20(style='width:160px; height:160px;')
+        //button.localbutton(type='button' class='btn btn-info btn-lg') Texture
+        //button.globalbutton(type='button' class='btn btn-info btn-lg') Shape
+        
+        //|<div id="slider-range" style="height:250px;"></div>
+      //div.Timeline
+        p Timeline
+        div.tim1
+          img.tim1_c1(style='width:40px; height:40px;')
+          img.tim1_c2(style='width:40px; height:40px;')
+          img.tim1_c3(style='width:40px; height:40px;')
+          img.tim1_c4(style='width:40px; height:40px;')
+          img.tim1_c5(style='width:40px; height:40px;')
+          button.revert1(type='button' class='btn btn-info btn-lg') Revert
+        div.tim2
+          img.tim2_c1(style='width:40px; height:40px;')
+          img.tim2_c2(style='width:40px; height:40px;')
+          img.tim2_c3(style='width:40px; height:40px;')
+          img.tim2_c4(style='width:40px; height:40px;')
+          img.tim2_c5(style='width:40px; height:40px;')
+          button.revert2(type='button' class='btn btn-info btn-lg') Revert
+        div.tim3
+          img.tim3_c1(style='width:40px; height:40px;')
+          img.tim3_c2(style='width:40px; height:40px;')
+          img.tim3_c3(style='width:40px; height:40px;')
+          img.tim3_c4(style='width:40px; height:40px;')
+          img.tim3_c5(style='width:40px; height:40px;')
+          button.revert3(type='button' class='btn btn-info btn-lg') Revert
+        div.line
+      div.History 
+        div.bs2 Bookmarks
+        div.histimages
+          img.chosen1(style='width:200px; height:200px;margin-top: 20px')
+          img.chosen2(style='width:200px; height:200px;')
+          img.chosen3(style='width:200px; height:200px;')
+          img.chosen4(style='width:200px; height:200px;')
+          img.chosen5(style='width:200px; height:200px;')
+          img.chosen6(style='width:200px; height:200px;')
+    div.RightContainer
+      div.Coordinates
+        div.bs Gallery
+        div.coordimages
+          img.cex1(style='width:200px; height:200px;margin-top: 20px;')
+          img.cex2(style='width:200px; height:200px;')
+          img.cex3(style='width:200px; height:200px;')
+          img.cex4(style='width:200px; height:200px;')
+          img.cex5(style='width:200px; height:200px;')
+          img.cex6(style='width:200px; height:200px;')
+          img.cex7(style='width:200px; height:200px;')
+          img.cex8(style='width:200px; height:200px;')
+          img.cex9(style='width:200px; height:200px;')
+          img.cex10(style='width:200px; height:200px;')
+          img.cex11(style='width:200px; height:200px;')
+          img.cex12(style='width:200px; height:200px;')
+          img.cex13(style='width:200px; height:200px;')
+          img.cex14(style='width:200px; height:200px;')
+          img.cex15(style='width:200px; height:200px;')
+          img.cex16(style='width:200px; height:200px;')
+          img.cex17(style='width:200px; height:200px;')
+          img.cex18(style='width:200px; height:200px;')
+          img.cex19(style='width:200px; height:200px;')
+          img.cex20(style='width:200px; height:200px;')
+          img.cex21(style='width:200px; height:200px;')
+          img.cex22(style='width:200px; height:200px;')
+          img.cex23(style='width:200px; height:200px;')
+          img.cex24(style='width:200px; height:200px;')
+          img.cex25(style='width:200px; height:200px;')
+          img.cex26(style='width:200px; height:200px;')
+          img.cex27(style='width:200px; height:200px;')
+          img.cex28(style='width:200px; height:200px;')
+          img.cex29(style='width:200px; height:200px;')
+          img.cex30(style='width:200px; height:200px;')
+          img.cex31(style='width:200px; height:200px;')
+          img.cex32(style='width:200px; height:200px;')
+          img.cex33(style='width:200px; height:200px;')
+          img.cex34(style='width:200px; height:200px;')
+          img.cex35(style='width:200px; height:200px;')
+          img.cex36(style='width:200px; height:200px;')
+          img.cex37(style='width:200px; height:200px;')
+          img.cex38(style='width:200px; height:200px;')
+          img.cex39(style='width:200px; height:200px;')
+          img.cex40(style='width:200px; height:200px;')
+          img.cex41(style='width:200px; height:200px;')
+          img.cex42(style='width:200px; height:200px;')
+          img.cex43(style='width:200px; height:200px;')
+          img.cex44(style='width:200px; height:200px;')
+          img.cex45(style='width:200px; height:200px;')
+          img.cex46(style='width:200px; height:200px;')
+          img.cex47(style='width:200px; height:200px;')
+          img.cex48(style='width:200px; height:200px;')
+          img.cex49(style='width:200px; height:200px;')
+          img.cex50(style='width:200px; height:200px;')
+          img.cex51(style='width:200px; height:200px;')
+          img.cex52(style='width:200px; height:200px;')
+          img.cex53(style='width:200px; height:200px;')
+          img.cex54(style='width:200px; height:200px;')
+          img.cex55(style='width:200px; height:200px;')
+          img.cex56(style='width:200px; height:200px;')
+          img.cex57(style='width:200px; height:200px;')
+          img.cex58(style='width:200px; height:200px;')
+          img.cex59(style='width:200px; height:200px;')
+          img.cex60(style='width:200px; height:200px;')
+
+        //button.merge(type='button' class='btn btn-info btn-lg') Merge
+      div.bstestarea
+        div.testareaname Test Area
+        div.TestArea 
+          div.strengthtext
+            |<label for="amount-test1" id="strength-text" style = "font-size: 30px; ">Strength of the Edit:</label>
+          div.wrapper
+            div.sliding1
+              div.bar1
+                div.slidingbar1
+                  |<script>
+                  |$( function() {
+                  |  $( "#slider-range-test1" ).slider({
+                  |    range: "min",
+                  |    value: 0,
+                  |    min: -10,
+                  |    max: 10,
+                  |    slide: function( event, ui ) {
+                  |      $( "#amount-test1" ).val( ui.value );
+                  |    }
+                  |  });
+                  |  $( "#amount-test1" ).val($( "#slider-range-test1" ).slider( "value" ) );
+                  |} );
+                  |</script>
+                  div#slider-range-test1
+                div.slidingbartext1
+                  |<input type="text" id="amount-test1" readonly style="border:0; font-weight:bold; font-size: 20px; width: 30px; text-align:center;">
+              div.images1
+                img.test_ref1(style='width:200px; height:200px;margin-top: 20px')
+                img.test_target1(style='width:200px; height:200px;')
+            div.sliding2
+              div.bar2
+                div.slidingbar2
+                  |<script>
+                  |$( function() {
+                  |  $( "#slider-range-test2" ).slider({
+                  |    range: "min",
+                  |    value: 0,
+                  |    min: -10,
+                  |    max: 10,
+                  |    slide: function( event, ui ) {
+                  |      $( "#amount-test2" ).val( ui.value );
+                  |    }
+                  |  });
+                  |  $( "#amount-test2" ).val($( "#slider-range-test2" ).slider( "value" ) );
+                  |} );
+                  |</script>
+                  div#slider-range-test2
+                div.slidingbartext2
+                  |<input type="text" id="amount-test2" readonly style="border:0; font-weight:bold; font-size: 20px; width: 30px; text-align:center;" >
+              div.images2
+                img.test_ref2(style='width:200px; height:200px;margin-top: 20px')
+                img.test_target2(style='width:200px; height:200px;')
+            div.sliding3
+              div.bar3
+                div.slidingbar3
+                  |<script>
+                  |$( function() {
+                  |  $( "#slider-range-test3" ).slider({
+                  |    range: "min",
+                  |    value: 0,
+                  |    min: -10,
+                  |    max: 10,
+                  |    slide: function( event, ui ) {
+                  |      $( "#amount-test3" ).val( ui.value );
+                  |    }
+                  |  });
+                  |  $( "#amount-test3" ).val($( "#slider-range-test3" ).slider( "value" ) );
+                  |} );
+                  |</script>  
+                  div#slider-range-test3
+                div.slidingbartext3
+                  |<input type="text" id="amount-test3" readonly style="border:0; font-weight:bold; font-size: 20px; width: 30px; text-align:center;">
+              div.images3
+                img.test_ref3(style='width:200px; height:200px;margin-top: 20px')
+                img.test_target3(style='width:200px; height:200px;')
+            div.sliding4
+              div.bar4
+                div.slidingbar4
+                  |<script>
+                  |$( function() {
+                  |  $( "#slider-range-test4" ).slider({
+                  |    range: "min",
+                  |    value: 0,
+                  |    min: -10,
+                  |    max: 10,
+                  |    slide: function( event, ui ) {
+                  |      $( "#amount-test4" ).val( ui.value );
+                  |    }
+                  |  });
+                  |  $( "#amount-test4" ).val($( "#slider-range-test4" ).slider( "value" ) );
+                  |} );
+                  |</script>
+                  div#slider-range-test4
+                div.slidingbartext4
+                  |<input type="text" id="amount-test4" readonly style="border:0; font-weight:bold; font-size: 20px; width: 30px; text-align:center;">
+              div.images4
+                img.test_ref4(style='width:200px; height:200px;margin-top: 20px')
+                img.test_target4(style='width:200px; height:200px;')
+          div.savedirwrapper
+            button.savebutton(type='button' class='btn btn-info btn-lg' ) Save Direction
+
+  script(src='/javascripts/gallery.js')
+  
